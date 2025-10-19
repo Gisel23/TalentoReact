@@ -1,0 +1,26 @@
+[
+    {
+        "id" : "1",
+        "name": "Pan de masa madre",
+        "price": 5000,
+        "category": "salado",
+        "description": "Pan de masa madre salado tipo de mesa.",
+        "imageUrl": "/images/pan.jpg"
+    },
+     {
+        "id" : "2",
+        "name": "Media luna de masa madre",
+        "price": 10000,
+        "category": "dulce",
+        "description": "Medias lunas de masa madre dulces.",
+        "imageUrl": "/images/medialunas.jpg"
+    },
+     {
+        "id" : "3",
+        "name": "Pancitos chips de masa madre",
+        "price": 6000,
+        "category": "salado",
+        "description": "Pancitos de masa madre salado tipo de mesa.",
+        "imageUrl": "/images/pancitos.jpg"
+    }
+]
