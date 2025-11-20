@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { ItemDetail } from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
 
+import "./ItemDetailContainer.css";
+
 export const ItemDetailContainer = () => {
     const [detail, setDetail] = useState({});
 
@@ -31,7 +33,7 @@ export const ItemDetailContainer = () => {
 
     }, [id]);
     return (
-    <main>
+    <main className="detail-container">
         {Object.keys(detail).length ? (
             <ItemDetail detail={detail}/>
         ) : (

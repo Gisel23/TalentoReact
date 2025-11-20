@@ -1,0 +1,19 @@
+.item-list.container {
+    width: 100%;
+    text-align: center;
+    margin: 2 rem;
+}
+
+.btn-container {
+    width: 100%;
+    margin-top: 2 rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2 rem;
+}
+
+.total-pagar {
+    width: 100%;
+    text-align: center;
+}
