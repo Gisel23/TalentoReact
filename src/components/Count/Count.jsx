@@ -18,7 +18,7 @@ export const Count = ({btnText, onConfirm}) => {
         } 
     };
 
-    return  <div className="count-container">
+    return ( <div className="count-container">
         <div className="count-buttons">
             <button className="btn" onClick={decrement} disabled={count === 0}>-</button>
             <span>{count}</span>
@@ -27,4 +27,5 @@ export const Count = ({btnText, onConfirm}) => {
         <button className="btn btn-add" onClick={confirm} disabled = {count === 0}>{btnText}</button>
 
         </div>
+    );
 };

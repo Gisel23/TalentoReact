@@ -22,7 +22,7 @@ export const ProductFormUI = ({ product, errors, loading, onChange, onFileChange
                 </div>
 
                 <div>
-                    <label>Descripción</label>
+                    <label>Descripción:</label>
                     <textarea name="description" value={product.description} onChange={onChange} required></textarea>
                     {errors.description && <p className="error">{errors.description}</p>}
                 </div>
